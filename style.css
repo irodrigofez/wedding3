@@ -50,7 +50,7 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Montserrat,
   position:relative;
   width:100%;
   height: min(95vh, 780px);
-  background: url('img/portada.jpg') center/cover no-repeat;
+  background: url('./img/portada.jpg') center/cover no-repeat;
 }
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.12),rgba(0,0,0,.20))}
 .title-frame{position:absolute;left:50%;bottom:10%;transform:translateX(-50%);text-align:center;border:1px solid rgba(255,255,255,.7);padding:16px 24px;border-radius:8px;backdrop-filter: blur(2px)}
